@@ -1,7 +1,10 @@
 # -Implemented-Full-DevOps-Pipeline-for-React-App-Build-Deploy-Dockerize
 
-This project demonstrates a complete end-to-end DevOps workflow for a React application, including server setup, CI/CD automation, deployment, reverse proxy configuration, security hardening, and Dockerization.
+This project showcases a complete DevOps pipeline implementation for deploying a React application on AWS. It includes setting up a secure Ubuntu server, building and deploying the application using PM2, and configuring an Nginx reverse proxy for production-level access.
 
+A fully automated CI/CD pipeline was created using Jenkins, enabling automated code pull, build, deployment, and S3 artifact uploading. The application was also Dockerized and deployed using Docker Compose for container-based deployments. Security best practices were applied using UFW firewall rules.
+
+This project demonstrates hands-on experience across DevOps tools such as AWS EC2, Linux, Jenkins, Docker, Nginx, PM2, S3, Git, and automation for real-world deployment workflows.
 # Screenshots:
 <img width="1919" height="895" alt="Screenshot 2025-11-24 202351" src="https://github.com/user-attachments/assets/235cb632-a65f-4f3e-977d-af4865e20cd2" />
 <img width="842" height="232" alt="Screenshot 2025-11-24 185047" src="https://github.com/user-attachments/assets/6ecde389-3c73-4701-8165-5855b1dae990" />
