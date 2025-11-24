@@ -1,8 +1,31 @@
 # -Implemented-Full-DevOps-Pipeline-for-React-App-Build-Deploy-Dockerize
 
 This project demonstrates a complete end-to-end DevOps workflow for a React application, including server setup, CI/CD automation, deployment, reverse proxy configuration, security hardening, and Dockerization.
-Project Overview
 
+# Screenshots:
+<img width="1919" height="895" alt="Screenshot 2025-11-24 202351" src="https://github.com/user-attachments/assets/235cb632-a65f-4f3e-977d-af4865e20cd2" />
+<img width="842" height="232" alt="Screenshot 2025-11-24 185047" src="https://github.com/user-attachments/assets/6ecde389-3c73-4701-8165-5855b1dae990" />
+
+<img width="702" height="53" alt="Screenshot 2025-11-24 185120" src="https://github.com/user-attachments/assets/fa782611-c3a3-47e7-a25a-ec22a28e5bbc" />
+
+<img width="408" height="122" alt="Screenshot 2025-11-24 185334" src="https://github.com/user-attachments/assets/ef88763c-f614-4906-9d5c-5af42e913e20" />
+<img width="861" height="200" alt="Screenshot 2025-11-24 185434" src="https://github.com/user-attachments/assets/66899ae9-e2e4-4d4a-b405-2b4d946d56bd" />
+<img width="1415" height="363" alt="Screenshot 2025-11-24 185506" src="https://github.com/user-attachments/assets/116cfdc1-27ae-4c0f-a36a-a0de0aee2cc5" />
+<img width="753" height="255" alt="Screenshot 2025-11-24 185706" src="https://github.com/user-attachments/assets/0ec02fbc-5f8e-4d9b-ab3a-c54dce85ccc6" />
+<img width="909" height="45" alt="Screenshot 2025-11-24 185747" src="https://github.com/user-attachments/assets/76f6f77b-a9eb-44aa-9745-92a174bbddea" />
+<img width="1299" height="285" alt="Screenshot 2025-11-24 192117" src="https://github.com/user-attachments/assets/4daed529-f683-40bf-9c13-0349a9e4acb7" />
+<img width="1919" height="842" alt="Screenshot 2025-11-24 201949" src="https://github.com/user-attachments/assets/b3e1a0fd-d6a2-4565-9491-69c3c890247d" />
+<img width="1919" height="1014" alt="Screenshot 2025-11-24 202107" src="https://github.com/user-attachments/assets/99bfed1e-9abd-45e3-a2ee-384947ff960a" />
+<img width="1898" height="1012" alt="Screenshot 2025-11-24 202121" src="https://github.com/user-attachments/assets/945d4d51-5e2d-4d39-8357-b0d2aa8640b2" />
+<img width="1919" height="1013" alt="Screenshot 2025-11-24 202146" src="https://github.com/user-attachments/assets/92f791eb-5faa-4a9d-9391-5e2f619203c7" />
+<img width="1892" height="73" alt="Screenshot 2025-11-24 202010" src="https://github.com/user-attachments/assets/fa5d59cd-c7cb-474d-a17f-7ac02a2f01dd" />
+<img width="1919" height="1011" alt="Screenshot 2025-11-24 201859" src="https://github.com/user-attachments/assets/7c91a698-1463-49a0-8617-f04df95d6740" />
+<img width="1906" height="1008" alt="Screenshot 2025-11-24 201917" src="https://github.com/user-attachments/assets/3c05390d-c186-415c-be3f-f12e08e588af" />
+<img width="1918" height="1010" alt="Screenshot 2025-11-24 200837" src="https://github.com/user-attachments/assets/9400db8f-dd99-4ca4-ad44-d59080bb8ae1" />
+<img width="1915" height="887" alt="Screenshot 2025-11-24 200823" src="https://github.com/user-attachments/assets/8690b66a-8992-4cb3-b0a2-d94f6aa17d1f" />
+<img width="1918" height="1012" alt="Screenshot 2025-11-24 201813" src="https://github.com/user-attachments/assets/0f0ba562-6c0f-4e7c-a398-f8fdb3c3d5fe" />
+ 
+ Project Overview
 The objective of this project is to automate the build and deployment process of a React application using modern DevOps tools. The pipeline includes:
  - Linux user setup
  - Application build & deployment
@@ -167,9 +190,12 @@ Run:
  - Dockerized application running on port 3000
  - Firewall rules configured using UFW
 
-screenshots:
 
 
 Author
 Mohd Ayoub
+AWS & DevOps Engineer 
+LinkedIn: (https://www.linkedin.com/in/ermohdayoub)
 
+⭐ If you like this project
+Please star ⭐ this repository — it helps a lot!
