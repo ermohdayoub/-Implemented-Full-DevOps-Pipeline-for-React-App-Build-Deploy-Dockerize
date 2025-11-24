@@ -4,46 +4,27 @@ This project demonstrates a complete end-to-end DevOps workflow for a React appl
 Project Overview
 
 The objective of this project is to automate the build and deployment process of a React application using modern DevOps tools. The pipeline includes:
-
-Linux user setup
-
-Application build & deployment
-
-PM2 process management
-
-Nginx reverse proxy
-
-Jenkins CI/CD pipeline
-
-Dockerization
-
-UFW firewall configuration
-
-S3 artifact upload
+ - Linux user setup
+ - Application build & deployment
+ - PM2 process management
+ - Nginx reverse proxy
+ - Jenkins CI/CD pipeline
+ - Dockerization
+ - UFW firewall configuration
+ - S3 artifact upload
 
 Technologies Used
-
-AWS EC2 (Ubuntu)
-
-Linux / Bash
-
-Node.js & npm
-
-React
-
-PM2
-
-Nginx
-
-Jenkins
-
-Docker & Docker Compose
-
-UFW Firewall
-
-AWS S3
-
-Git & GitHub
+ - AWS EC2 (Ubuntu)
+ - Linux / Bash
+ - Node.js & npm
+ - React
+ - PM2
+ - Nginx
+ - Jenkins
+ - Docker & Docker Compose
+ - UFW Firewall
+ - AWS S3
+ - Git & GitHub
 
 Steps Implemented
 1. Linux Setup & User Management
@@ -62,7 +43,6 @@ npm run build
 
 
 Move build output:
-
 sudo mkdir -p /opt/deployment/react
 sudo mv dist /opt/deployment/react/
 
@@ -73,9 +53,7 @@ pm2 save
 pm2 startup
 
 4. Configure Nginx Reverse Proxy
-
 Create config file:
-
 sudo nano /etc/nginx/sites-available/react
 
 
@@ -114,24 +92,17 @@ sudo systemctl start jenkins
 
 
 Access Jenkins:
-
-http://<EC2-IP>:8080
+- http://<EC2-IP>:8080
 
 Jenkins Pipeline Workflow
-
 Pipeline performs:
 
 Stop PM2 service
-
-Pull latest code
-
-Build React app
-
-Copy dist folder
-
-Restart PM2
-
-Upload artifacts to S3
+ - Pull latest code
+ - Build React app
+ - Copy dist folder
+ - Restart PM2
+ - Upload artifacts to S3
 
 Jenkinsfile
 pipeline {
@@ -204,11 +175,9 @@ Firewall rules configured using UFW
 
 Documentation
 
-Full PDF with commands & screenshots:
-/docs/DevOps Engineer Challenge.pdf
+screenshots:
+
 
 Author
+Mohd Ayoub
 
-Mohammed Ayub Yousufi
-DevOps & Cloud Engineer
-AWS | Jenkins | Docker | CI/CD | Linux
